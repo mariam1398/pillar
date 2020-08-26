@@ -1,0 +1,793 @@
+body {
+    background-color: #f8f8f8;
+    overflow-x: hidden;
+}
+
+#pillar-nav .navbar-brand img {
+    width: 64px;
+    height: 22px;
+    margin: 0px 26px 0px 0px;
+}
+
+#pillar-nav .generic ul li {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 0px 0px 13px;
+    color: #232323;
+    font-weight: 500;
+    font-size: 9px;
+}
+
+#pillar-nav .end-icons div i {
+    width: 18px;
+    height: 18px;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+    font-size: 12px;
+    padding: 15px;
+    padding-top: 0;
+}
+
+#pillar-nav .end-icons .shopping-bag {
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+#pillar-nav .end-icons .search {
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#pillar-nav .end-icons .shopping-bag {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#pillar-nav .navbar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+#pillar-sect .container {
+    background-image: url("../img/hero1.jpg");
+    height: 600px;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#pillar-sect .container::before {
+    content: "";
+    /* width: 1264px; */
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#pillar-sect .big-icon img {
+    width: 310px;
+    position: absolute;
+    z-index: 2;
+}
+
+#pillar-sect .big-icon {
+    z-index: 2;
+    position: absolute;
+    top: 130px;
+    left: 330px;
+}
+
+#pillar-sect .collect {
+    position: absolute;
+    top: 170px;
+    z-index: 3;
+}
+
+#pillar-sect .collect p {
+    font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1.4em;
+    line-height: 1.69565217em;
+    color: #fff;
+    opacity: 0.9;
+    display: block;
+}
+
+#pillar-sect .butn {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    z-index: 9;
+    width: 300px;
+}
+
+#pillar-sect .butn a {
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding: 15px 53px;
+    background-color: #4209ddf8;
+    color: white;
+    transition: all 0.4s;
+
+}
+
+#pillar-sect .butn a:hover {
+    background-color: #5621e6f8;
+    transition: all 0.4s;
+}
+
+#pillar-sect .butn a span i {
+    padding-right: 5px;
+    font-size: 6px;
+}
+
+#pillar-sect .sm-icons {
+    position: absolute;
+    top: 400px;
+    left: 530px;
+    z-index: 4;
+}
+
+#pillar-sect .sm-icons a:hover i {
+    color: white;
+    transition: all 0.4s;
+}
+
+#pillar-sect .sm-icons i {
+    color: rgba(211, 211, 211, 0.925);
+    padding-right: 50px;
+    font-size: 23px;
+    transition: all 0.4s;
+}
+
+#digital .dd {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#exparall .dd {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#tester .dd {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#digital .dd h3 {
+    line-height: 1.5em;
+    font-size: 1.8em;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+    color: #343434;
+    font-weight: 650;
+    font-variant-ligatures: common-ligatures;
+    padding-bottom: 30px;
+}
+
+#exparall .dd h3 {
+    line-height: 1.5em;
+    font-size: 1.8em;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+    color: #343434;
+    font-weight: 650;
+    font-variant-ligatures: common-ligatures;
+    padding-bottom: 30px;
+}
+
+#tester .dd h3 {
+    line-height: 1.5em;
+    font-size: 1.8em;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+    color: #343434;
+    font-weight: 650;
+    font-variant-ligatures: common-ligatures;
+    padding-bottom: 30px;
+}
+
+#digital .dd p {
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 1.69565217em;
+    font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+    color: #767676;
+    margin-bottom: 100px;
+}
+
+#exparall .dd p {
+    font-weight: 400;
+    font-size: 1.4em;
+    line-height: 1.69565217em;
+    font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+    color: #767676;
+    margin-bottom: 100px;
+}
+
+#tester .dd p {
+    font-weight: 400;
+    font-size: 1.4em;
+    line-height: 1.69565217em;
+    font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+    color: #767676;
+    margin-bottom: 100px;
+}
+
+#digital .dd .part {
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#digital .dd .part a {
+    text-decoration: none;
+    color: #c6c6c6;
+    font-weight: 400;
+    transition: all 0.4s;
+}
+
+#digital .dd .part a:hover {
+    color: #767676;
+    transition: all 0.4s;
+}
+
+#digital .dd .part span {
+    color: #c6c6c6;
+}
+
+#digital .dd .part .gray {
+    color: #767676;
+}
+
+#digital .freehance .hvr {
+    position: absolute;
+    top: 45px;
+    right: 32px;
+    font-size: 0.8em;
+    line-height: 1.625em;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+#digital .freehance:hover .hvr {
+    opacity: 1;
+    transition: all 0.5s;
+    transform: translateY(-10px);
+}
+
+#digital .freehance .hvr h5 {
+    color: white;
+    text-align: right;
+    font-weight: 600;
+    font-variant-ligatures: common-ligatures;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.625em;
+    margin-bottom: 0;
+}
+
+#digital .freehance .hvr span {
+    color: white;
+    font-style: italic;
+    text-align: right;
+    font-size: 1.1em;
+    line-height: 1em;
+    font-weight: 200;
+    font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+    margin-top: 0;
+}
+
+#digital .freehance img {
+    max-width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+#digital .freehance::after {
+    content: "";
+    width: 421px;
+    height: 315px;
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.85;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+#digital .freehance:hover::after {
+    opacity: 0.85;
+    transition: all 0.4s;
+}
+
+#exparall .avateam img {
+    max-width: 100%;
+    position: relative;
+    z-index: -2;
+}
+
+#exparall .avateam::after {
+    content: "";
+    width: 350px;
+    height: 425px;
+    background-color: rgb(43, 42, 42);
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+#exparall .avateam:hover::after {
+    opacity: 0.86;
+    transition: all 0.4s;
+}
+
+#exparall .avateam .contnt {
+    text-align: center;
+    position: absolute;
+    left: 36%;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+#exparall .avateam:hover .contnt {
+    opacity: 1;
+    transition: all 0.4s;
+    transform: translateX(-10px);
+}
+
+#exparall .avateam .contnt h6 {
+    color: #fff;
+    margin-bottom: 0;
+    opacity: .75;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 0.625em;
+    line-height: 2.6em;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+}
+
+#exparall .avateam .contnt h5 {
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.625em;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 700;
+    font-variant-ligatures: common-ligatures;
+}
+
+
+#exparall .avateam:hover .social-icons {
+    transition: all 0.4s;
+    opacity: 1;
+}
+
+#exparall .social-icons {
+    position: absolute;
+    left: 32%;
+    top: 90%;
+    max-width: 100%;
+    font-weight: 400;
+    margin-bottom: 1.625em;
+    transition: all 0.4s;
+    opacity: 0;
+}
+
+#exparall .social-icons a {
+    margin-right: 1.625em;
+    color: white;
+    opacity: 0.5;
+    font-size: 1em;
+    transition: all 0.4s;
+}
+
+#exparall .social-icons a:hover {
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+#exparall .parax {
+    background-image: url("../img/hero2.jpg");
+    height: 450px;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    z-index: -2;
+}
+
+
+#exparall .parax::after {
+    content: "";
+    width: 1263.5px;
+    height: 450px;
+    background-color: rgb(39, 39, 39);
+    position: absolute;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+#exparall .parax i {
+    color: #fff;
+    font-size: 4em;
+    line-height: 1em;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#exparall .parax h3 {
+    margin: 0.40625em 0;
+    color: #fff;
+    font-size: 2em;
+    line-height: 1.421875em;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+#exparall .parax span {
+    font-size: 1em;
+    line-height: 1.625em;
+    font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+}
+
+#interface .idesign h6 {
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 2.36363636363636em;
+    font-size: 0.625em;
+    line-height: 2.6em;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+    color: #343434;
+}
+
+#interface .idesign p {
+    min-height: 4.875em;
+    margin-bottom: 1.625em;
+    font-size: 1em;
+    line-height: 1.625em;
+    font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+    color: #767676;
+    font-weight: 400;
+}
+
+#interface .idesign i {
+    line-height: 1em;
+    font-size: 2.8125em;
+    color: #425cbb !important;
+}
+
+#tester .photo img {
+    width: 555px;
+    height: 473px;
+}
+
+#tester .quote {
+    margin-top: 11.375em;
+}
+
+#tester .quote blockquote {
+    font-size: 1.4375em;
+    line-height: 1.69565217391304em;
+    font-style: italic;
+    margin-bottom: 1.1304347826087em;
+    font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+    color: #767676;
+    font-weight: 400;
+}
+
+#tester .quote h5 {
+    font-size: 1em;
+    line-height: 1.625em;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+    color: #343434;
+    font-weight: 700;
+    font-variant-ligatures: common-ligatures;
+}
+
+#tester .quote span {
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 2.36363636363636em;
+    font-size: 0.625em;
+    line-height: 2.6em;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+    color: #343434;
+}
+
+#tester .photo::after {
+    content: "";
+    position: absolute;
+    width: 1285px;
+    height: 395px;
+    left: -80px;
+    bottom: 0;
+    background: #f4f4f4;
+    z-index: -1;
+}
+
+#tester .micard h6 {
+    margin-bottom: 1.3em;
+    color: #767676;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 0.625em;
+    line-height: 2.6em;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+}
+
+#tester .micard p {
+    font-weight: 400;
+    color: #232323;
+    font-size: 1em;
+    line-height: 1.625em;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+
+}
+
+#tester .micard .card-lower span {
+    font-size: 0.625em;
+    font-style: italic;
+    display: inline-block;
+    color: #767676;
+    line-height: 1.625em;
+    font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+}
+
+#tester .micard .card-lower p {
+    display: inline;
+    margin-bottom: 1.3em;
+    color: #767676;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 0.625em;
+    line-height: 2.6em;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+}
+
+#tester .micard {
+    transition: all 0.4s;
+    border-radius: 2px;
+    border: none;
+}
+
+#tester .micard img {
+    border-radius: 0;
+}
+
+#tester .micard:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s;
+}
+
+#tester .mibtn a {
+    border-color: rgba(35, 35, 35, 0.1);
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+    border-radius: 100px;
+    padding-top: 1.55em;
+    padding-bottom: 1.55em;
+    padding-right: 5em;
+    padding-left: 5em;
+    border-width: 2px;
+    line-height: 1.625em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 0.625em;
+    transition: all 0.4s;
+}
+
+#tester .mibtn a:hover {
+    border: 2px solid #232323; 
+    transition: all 0.4s;
+}
+
+#partners {
+    background-color: #f4f4f4;
+    padding-top: 4.33333333em;
+    padding-bottom: 4.33333333em;
+}
+
+#partners .partners img {
+    max-width: 100%;
+    height: 26px;
+    width: auto;
+    color: #767676;
+    overflow: hidden;
+}
+
+#partners .partners {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    color: #767676;
+}
+
+#interested {
+    display: flex;
+    align-items: center;
+    padding-top: 4.33333333em;
+    padding-bottom: 4.33333333em;
+    background: #425cbb;
+    vertical-align: middle;
+}
+
+#interested h4 {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4375em;
+    line-height: 1.41304348em;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 700;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+#interested a {
+    display: inline-block;
+    margin-left: 1.625em;
+    border-color: rgba(255, 255, 255, 0.1);
+    color: rgba(228, 228, 228, 0.932);
+    letter-spacing: 1px;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    padding-right: 3.7em;
+    padding-left: 3.7em;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+    border-width: 2px;
+    font-size: 10px;
+    line-height: 1.625em;
+    transition: all 0.4s;
+}
+
+#interested a:hover {
+    border: 2px solid rgb(228, 228, 228);
+    transition: all 0.4s;
+}
+
+#pill-foot {
+    background-color: #232323;
+    padding-bottom: 4.875em;
+}
+
+#pill-foot .logo img {
+    width: 91.86px;
+    margin-bottom: 20px;
+}
+
+#pill-foot .logo p {
+    color: #f5f5f5;
+    opacity: 0.9;
+    margin-bottom: 1.625em;
+    font-size: 1em;
+    line-height: 1.625em;
+    font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#pill-foot .serv li a{
+    text-decoration: none;
+    line-height: 3.2em;
+    list-style: none;
+    color: #727272;
+    font-size: 0.625em;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: all 0.4s;
+}
+
+#pill-foot .serv li a:hover {
+    color: #f5f5f5;
+    transition: all 0.4s;
+}
+
+#pill-foot .h6 h6 {
+    color: #f5f5f5;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 2.36363636363636em;
+    font-size: 0.625em;
+    line-height: 2.6em;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+}
+
+#pill-foot .twitter-feed p {
+    color: #f5f5f5;
+    opacity: 0.9;
+    margin-bottom: 1.625em;
+    font-size: 1em;
+    line-height: 1.625em;
+    font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+}
+
+#pill-foot form input {
+    border-radius: 50px 0 0 50px;
+    color: #767676;
+    height: 52px;
+    background: #ffffff;
+    padding: 0.8125em;
+    padding-left: 1.625em;
+    padding-right: 1.625em;
+    border: none;
+    outline: none;
+    width: 66.66666667%;
+}
+
+#pill-foot form button {
+    margin: 0;
+    margin-left: -4.2px;
+    margin-top: -5px;
+    border-radius: 0 50px 50px 0;
+    font-size: 0.725em;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #425cbb;
+    padding-top: 1.35em;
+    padding-bottom: 1.35em;
+    padding-right: 3.1em;
+    padding-left: 3em;
+    line-height: 1.625em; 
+}
+
+#pill-foot form input::placeholder{
+    color: #9e9e9eef;
+    opacity: 0.9;
+    margin-bottom: 1.625em;
+    font-size: 1em;
+    line-height: 1.625em;
+    font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#pill-foot .social-list a{
+    color: #f5f5f5;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    margin-right: 1.625em;
+    opacity: 0.5;
+    line-height: 2.35em;
+    transition: all 0.4s;
+}
+
+#pill-foot .social-list a:hover {
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+#copyright {
+    position: relative;
+    background: #1e1e1e;
+    padding: 1.625em 0;
+}
+
+#copyright span {
+    color: #f5f5f5;
+    opacity: 0.5;
+    font-size: 0.6875em;
+    font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+}
+
